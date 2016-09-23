@@ -1,0 +1,1127 @@
+{
+    "minetest": {
+        "name": "Minetest",
+        "backend": "minetest",
+        "launch_pattern": "minetest",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "/usr/bin/minetest",
+                "gtk_weight": 1
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["http://servers.minetest.net/list"],
+                "gtk_weight": 2
+            },
+            "nickname": {
+                "type": "s",
+                "default": "Player",
+                "gtk_weight": 3
+            }
+        }
+    },
+    "freeminer": {
+        "name": "Freeminer",
+        "backend": "minetest",
+        "launch_pattern": "minetest",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "/usr/bin/freeminer",
+                "gtk_weight": 1
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["http://servers.freeminer.org/list"],
+                "gtk_weight": 2
+            },
+            "nickname": {
+                "type": "s",
+                "default": "Player",
+                "gtk_weight": 3
+            }
+        }
+    },
+    "csgo": {
+        "name": "Counter-Strike: Global Offensive",
+        "backend": "qstat",
+        "launch_pattern": "hl2",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/csgo_linux",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["hl2master.steampowered.com:27011"],
+                "gtk_weight": 3
+            },
+            "steam_app_id": {
+                "type": "i",
+                "default": 730,
+                "gtk_weight": 4
+            },
+            "steam_launch": {
+                "type": "b",
+                "default": true,
+                "gtk_weight": 5
+            },
+            "steam_path": {
+                "type": "s",
+                "default": "steam",
+                "gtk_weight": 6
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            }
+        }
+    },
+    "cstrike": {
+        "name": "Counter-Strike: Source",
+        "backend": "qstat",
+        "launch_pattern": "hl2",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Counter-Strike Source/hl2_linux",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Counter-Strike Source",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["hl2master.steampowered.com:27011", "46.165.194.16:27011", "46.4.71.67:27011", "46.165.194.14:27011"],
+                "gtk_weight": 3
+            },
+            "steam_app_id": {
+                "type": "i",
+                "default": 240,
+                "gtk_weight": 4
+            },
+            "steam_launch": {
+                "type": "b",
+                "default": true,
+                "gtk_weight": 5
+            },
+            "steam_path": {
+                "type": "s",
+                "default": "steam",
+                "gtk_weight": 6
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            }
+        }
+    },
+    "dod": {
+        "name": "Day of Defeat: Source",
+        "backend": "qstat",
+        "launch_pattern": "hl2",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Day of Defeat Source/hl2_linux",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Day of Defeat Source",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["hl2master.steampowered.com:27011"],
+                "gtk_weight": 3
+            },
+            "steam_app_id": {
+                "type": "i",
+                "default": 300,
+                "gtk_weight": 4
+            },
+            "steam_launch": {
+                "type": "b",
+                "default": true,
+                "gtk_weight": 5
+            },
+            "steam_path": {
+                "type": "s",
+                "default": "steam",
+                "gtk_weight": 6
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            }
+        }
+    },
+    "garrysmod": {
+        "name": "Garry's Mod",
+        "backend": "qstat",
+        "launch_pattern": "hl2",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/GarrysMod/hl2_linux",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/GarrysMod/hl2_linux",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["hl2master.steampowered.com:27011"],
+                "gtk_weight": 3
+            },
+            "steam_app_id": {
+                "type": "i",
+                "default": 400,
+                "gtk_weight": 4
+            },
+            "steam_launch": {
+                "type": "b",
+                "default": true,
+                "gtk_weight": 5
+            },
+            "steam_path": {
+                "type": "s",
+                "default": "steam",
+                "gtk_weight": 6
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            }
+        }
+    },
+    "gesource": {
+        "name": "GoldenEye: Source",
+        "backend": "qstat",
+        "launch_pattern": "hl2",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["hl2master.steampowered.com:27011"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            }
+        }
+    },
+    "hl1mp": {
+        "name": "Half-Life Deathmatch: Source",
+        "backend": "qstat",
+        "launch_pattern": "hl2",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/GarrysMod/hl2_linux",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/GarrysMod/hl2_linux",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["hl2master.steampowered.com:27011"],
+                "gtk_weight": 3
+            },
+            "steam_app_id": {
+                "type": "i",
+                "default": 360,
+                "gtk_weight": 4
+            },
+            "steam_launch": {
+                "type": "b",
+                "default": true,
+                "gtk_weight": 5
+            },
+            "steam_path": {
+                "type": "s",
+                "default": "steam",
+                "gtk_weight": 6
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            }
+        }
+    },
+    "hl2mp": {
+        "name": "Half-Life 2: Deathmatch",
+        "backend": "qstat",
+        "launch_pattern": "hl2",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Half-Life 2 Deathmatch/hl2_linux",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Half-Life 2 Deathmatch",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["hl2master.steampowered.com:27011"],
+                "gtk_weight": 3
+            },
+            "steam_app_id": {
+                "type": "i",
+                "default": 320,
+                "gtk_weight": 4
+            },
+            "steam_launch": {
+                "type": "b",
+                "default": true,
+                "gtk_weight": 5
+            },
+            "steam_path": {
+                "type": "s",
+                "default": "steam",
+                "gtk_weight": 6
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            }
+        }
+    },
+    "left4dead2": {
+        "name": "Left 4 Dead 2",
+        "backend": "qstat",
+        "launch_pattern": "hl2",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Left 4 Dead 2/hl2_linux",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Left 4 Dead 2",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["hl2master.steampowered.com:27011"],
+                "gtk_weight": 3
+            },
+            "steam_app_id": {
+                "type": "i",
+                "default": 550,
+                "gtk_weight": 4
+            },
+            "steam_launch": {
+                "type": "b",
+                "default": true,
+                "gtk_weight": 5
+            },
+            "steam_path": {
+                "type": "s",
+                "default": "steam",
+                "gtk_weight": 6
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            }
+        }
+    },
+    "portal2": {
+        "name": "Portal 2",
+        "backend": "qstat",
+        "launch_pattern": "hl2",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Portal 2/portal2_linux",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Portal 2",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["hl2master.steampowered.com:27011"],
+                "gtk_weight": 3
+            },
+            "steam_app_id": {
+                "type": "i",
+                "default": 620,
+                "gtk_weight": 4
+            },
+            "steam_launch": {
+                "type": "b",
+                "default": true,
+                "gtk_weight": 5
+            },
+            "steam_path": {
+                "type": "s",
+                "default": "steam",
+                "gtk_weight": 6
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            }
+        }
+    },
+    "tf": {
+        "name": "Team Fortress 2",
+        "backend": "qstat",
+        "launch_pattern": "hl2",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Team Fortress 2/hl2_linux",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "~/.local/share/Steam/steamapps/common/Team Fortress 2",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["hl2master.steampowered.com:27011"],
+                "gtk_weight": 3
+            },
+            "steam_app_id": {
+                "type": "i",
+                "default": 440,
+                "gtk_weight": 4
+            },
+            "steam_launch": {
+                "type": "b",
+                "default": true,
+                "gtk_weight": 5
+            },
+            "steam_path": {
+                "type": "s",
+                "default": "steam",
+                "gtk_weight": 6
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "STMA2S",
+                "gtk_weight": -1
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "A2S",
+                "gtk_weight": -1
+            },
+            "qstat_game_type": {
+                "type": "s",
+                "default": "tf",
+                "gtk_weight": -1
+            }
+        }
+    },
+    "alienarena": {
+        "name": "Alien Arena",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "alienarena",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["master.corservers.com:27900", "master2.corservers.com:27900"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "ALIENARENAM",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "ALIENARENAS",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "doom3": {
+        "name": "Doom 3",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "doom3",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["idnet.ua-corp.com:27650"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "DM3M",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "DM3S",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "openjk": {
+        "name": "OpenJK",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "doom3",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["idnet.ua-corp.com:27650"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "JK3M",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "JK3S",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "q2": {
+        "name": "Quake II",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "quake2",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["netdome.biz:27900"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "Q2M",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "Q2S",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "q3a": {
+        "name": "Quake III Arena",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "quake3",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["master3.idsoftware.com:27950", "master.quake3arena.com:27950", "master.ioquake3.org:27950", "dpmaster.deathmask.net:27950", "master.maverickservers.com:27950"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "Q3M",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "Q3S",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "q4": {
+        "name": "Quake 4",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "quake4",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["q4master.idsoftware.com:27650"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "Q4M",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "Q4S",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "qw": {
+        "name": "QuakeWorld",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "qwcl",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["qwmaster.ocrana.de:27000"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "QWM",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "QWS",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "rtcw": {
+        "name": "Return to Castle Wolfenstein",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "rtcwmp",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["107.161.23.68:27950"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "RWM",
+                "gtk_weight": -1
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "RWS",
+                "gtk_weight": -1
+            }
+        }
+    },
+    "et": {
+        "name": "Wolfenstein: Enemy Territory",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "rtcwmp",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["etmaster.idsoftware.com:27950"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "WOETM",
+                "gtk_weight": -1
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "WOETS",
+                "gtk_weight": -1
+            }
+        }
+    },
+    "openarena": {
+        "name": "OpenArena",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "openarena",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["master.ioquake3.org:27950", "dpmaster.deathmask.net:27950"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "OPENARENAM",
+                "gtk_weight": -1
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "OPENARENAS",
+                "gtk_weight": -1
+            }
+        }
+    },
+    "openttd": {
+        "name": "OpenTTD",
+        "backend": "qstat",
+        "launch_pattern": "openttd",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "openttd",
+                "gtk_weight": 1
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["master.openttd.org:3978"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "OTTDM",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "OTTDS",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "stef1": {
+        "name": "Star Trek: Voyager - Elite Force",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "iostvoyHM",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["master.stef1.ravensoft.com:27953"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "EFM",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "EFS",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "turtlearena": {
+        "name": "Turtle Arena",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "turtle_arena",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["master.ioquake3.org:27950", "dpmaster.deathmask.net:27950"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "TURTLEARENAM",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "TURTLEARENAS",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "unvanquished": {
+        "name": "Unvanquished",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "unvanquished",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["unvanquished.net:27950"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "UNVANQUISHEDM",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "UNVANQUISHEDS",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "urbanterror": {
+        "name": "Urban Terror",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "urbanterror",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["master.urbanterror.info:27900", "master2.urbanterror.info:27900"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "IOURTM",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "IOURTS",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "warsow": {
+        "name": "Warsow",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "warsow",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["eu.master.warsow.net:27950", "ghdigital.com:27950", "dpmaster.deathmask.net:27950"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "WARSOWM",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "WARSOWS",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "wop": {
+        "name": "World of Padman",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "wop",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["master.worldofpadman.com:27955"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "WOPM",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "WOPS",
+                "gtk_weight": 9
+            }
+        }
+    },
+    "xonotic": {
+        "name": "Xonotic",
+        "backend": "qstat",
+        "launch_pattern": "quake",
+        "settings": {
+            "path": {
+                "type": "s",
+                "default": "xonotic-sdl",
+                "gtk_weight": 1
+            },
+            "workdir": {
+                "type": "s",
+                "default": "",
+                "gtk_weight": 2
+            },
+            "master_server_uri": {
+                "type": "as",
+                "default": ["ghdigital.com:27950", "dpmaster.deathmask.net:27950", "dpmaster.tchr.no:27950"],
+                "gtk_weight": 3
+            },
+            "qstat_path": {
+                "type": "s",
+                "default": "/usr/bin/qstat",
+                "gtk_weight": 7
+            },
+            "qstat_master_type": {
+                "type": "s",
+                "default": "XONOTICM",
+                "gtk_weight": 8
+            },
+            "qstat_server_type": {
+                "type": "s",
+                "default": "XONOTICS",
+                "gtk_weight": 9
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+    <gresource prefix="/io/obozrenie">
+        <file compressed="false">game_icons/warsow.png</file>
+        <file compressed="false">game_icons/csgo.png</file>
+        <file compressed="false">game_icons/openarena.png</file>
+        <file compressed="false">game_icons/doom3.png</file>
+        <file compressed="false">game_icons/cstrike.png</file>
+        <file compressed="false">game_icons/unvanquished.png</file>
+        <file compressed="false">game_icons/rtcw.png</file>
+        <file compressed="false">game_icons/left4dead2.png</file>
+        <file compressed="false">game_icons/q4.png</file>
+        <file compressed="false">game_icons/gesource.png</file>
+        <file compressed="false">game_icons/urbanterror.png</file>
+        <file compressed="false">game_icons/qw.png</file>
+        <file compressed="false">game_icons/portal2.png</file>
+        <file compressed="false">game_icons/freeminer.svg</file>
+        <file compressed="false">game_icons/minetest.svg</file>
+        <file compressed="false">game_icons/xonotic.png</file>
+        <file compressed="false">game_icons/wop.png</file>
+        <file compressed="false">game_icons/openjk.png</file>
+        <file compressed="false">game_icons/et.png</file>
+        <file compressed="false">game_icons/q2.png</file>
+        <file compressed="false">game_icons/stef1.png</file>
+        <file compressed="false">game_icons/openttd.png</file>
+        <file compressed="false">game_icons/turtlearena.png</file>
+        <file compressed="false">game_icons/hl2mp.png</file>
+        <file compressed="false">game_icons/image-missing.png</file>
+        <file compressed="false">game_icons/q3a.png</file>
+        <file compressed="false">game_icons/tf.png</file>
+        <file compressed="false">game_icons/dod.png</file>
+        <file compressed="false">game_icons/hl1mp.png</file>
+        <file compressed="false">game_icons/garrysmod.png</file>
+        <file compressed="false">game_icons/alienarena.png</file>
+        <file compressed="false">game_lists.json</file>
+        <file compressed="false">obozrenie_gtk.ui</file>
+        <file compressed="false">obozrenie.svg</file>
+        <file compressed="false">obozrenie-short.svg</file>
+    </gresource>
+</gresources>
